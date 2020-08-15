@@ -38,6 +38,6 @@ io.of( '/stream' ).on('connection', client => {
 const port = process.env.PORT || 3000;
 
   
-var listener = server.listen(port, '52.205.56.111', function(){
+var listener = server.listen(port, function(){
     console.log('Listening on ' + listener.address().address, + listener.address().port); //Listening on port 8080
 });
